@@ -435,6 +435,7 @@ def main():
                 "**/node_modules/**"
             ],
             "redirects": [
+                {"source": "/rehber", "destination": "/bric-baslangic-rehberi", "type": 301},
                 {"source": "/sozluk", "destination": "/bric-sozlugu", "type": 301},
                 {"source": "/notlar", "destination": "/bric-ders-notlari-pdf", "type": 301},
                 {"source": "/malzemeler", "destination": "/bric-baslangic-rehberi", "type": 301},

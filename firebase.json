@@ -9,6 +9,11 @@
     ],
     "redirects": [
       {
+        "source": "/rehber",
+        "destination": "/bric-baslangic-rehberi",
+        "type": 301
+      },
+      {
         "source": "/sozluk",
         "destination": "/bric-sozlugu",
         "type": 301
