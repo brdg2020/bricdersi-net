@@ -434,6 +434,14 @@ def main():
                 "**/.*",
                 "**/node_modules/**"
             ],
+            "headers": [
+                {
+                    "source": "/pdf/**",
+                    "headers": [
+                        {"key": "Cache-Control", "value": "no-cache, no-store, must-revalidate"}
+                    ]
+                }
+            ],
             "redirects": [
                 {"source": "/rehber", "destination": "/bric-baslangic-rehberi", "type": 301},
                 {"source": "/sozluk", "destination": "/bric-sozlugu", "type": 301},
