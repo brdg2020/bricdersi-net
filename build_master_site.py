@@ -251,12 +251,26 @@ def build_schema_json(slug, page_meta):
             "award": "TBF 3. Kademe Antrenör"
         },
         {
+            "@type": "Person",
+            "@id": "https://www.bricdersi.net/#person-erdinc",
+            "name": "Erdinç Erbil",
+            "jobTitle": "Türkiye Briç Milli Takım Oyuncusu & Kıdemli Briç Eğitmeni",
+            "description": "Türkiye Briç Milli Takım Oyuncusu ve bricdersi.net kıdemli briç eğitmeni.",
+            "url": "https://www.bricdersi.net",
+            "image": "https://www.bricdersi.net/favicon-32x32.png",
+            "knowsAbout": ["Briç", "Briç Eğitimi", "Turnuva Briçi", "Milli Takım Oyuncusu"],
+            "award": "Türkiye Briç Milli Takım Oyuncusu"
+        },
+        {
             "@type": "EducationalOrganization",
             "@id": "https://www.bricdersi.net/#organization",
             "name": "bricdersi.net - Türkiye Briç Okulu",
             "url": "https://www.bricdersi.net",
             "logo": "https://www.bricdersi.net/favicon-32x32.png",
-            "founder": {"@id": "https://www.bricdersi.net/#person"},
+            "founder": [
+                {"@id": "https://www.bricdersi.net/#person"},
+                {"@id": "https://www.bricdersi.net/#person-erdinc"}
+            ],
             "sameAs": [
                 "https://www.instagram.com/bric.dersi",
                 "https://www.youtube.com/channel/UCPvnp7T9eOpixvbIA4olNYQ"
