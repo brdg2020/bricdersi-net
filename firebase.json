@@ -44,6 +44,71 @@
         "source": "/anasayfa",
         "destination": "/",
         "type": 301
+      },
+      {
+        "source": "/briç-nedir",
+        "destination": "/bric-nedir",
+        "type": 301
+      },
+      {
+        "source": "/bri%C3%A7-nedir",
+        "destination": "/bric-nedir",
+        "type": 301
+      },
+      {
+        "source": "/briç-dersleri",
+        "destination": "/ozel-bric-dersleri",
+        "type": 301
+      },
+      {
+        "source": "/bri%C3%A7-dersleri",
+        "destination": "/ozel-bric-dersleri",
+        "type": 301
+      },
+      {
+        "source": "/hakkımızda",
+        "destination": "/hakkimda",
+        "type": 301
+      },
+      {
+        "source": "/hakk%C4%B1m%C4%B1zda",
+        "destination": "/hakkimda",
+        "type": 301
+      },
+      {
+        "source": "/briç-öğren/:path*",
+        "destination": "/bric-baslangic-rehberi",
+        "type": 301
+      },
+      {
+        "source": "/bri%C3%A7-%C3%B6%C4%9Fren/:path*",
+        "destination": "/bric-baslangic-rehberi",
+        "type": 301
+      },
+      {
+        "source": "/defansif-sinyaller-marka-sayi",
+        "destination": "/bric-atak-ve-defans-sinyalleri",
+        "type": 301
+      },
+      {
+        "source": "/kart-sayma-ve-okuma",
+        "destination": "/bric-el-degerlendirme-alistirmalari",
+        "type": 301
+      },
+      {
+        "source": "/bric-partneri-bul",
+        "destination": "/hakkimda",
+        "type": 301
+      },
+      {
+        "source": "/bricin-faydalari",
+        "destination": "/bric-nedir",
+        "type": 301
+      },
+      {
+        "source": "/posts/:path*",
+        "destination": "/",
+        "type": 301
       }
     ],
     "cleanUrls": true,
