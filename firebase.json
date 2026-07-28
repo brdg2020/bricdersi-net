@@ -41,41 +41,6 @@
         "type": 301
       },
       {
-        "source": "/bric-konvansiyonlari-listesi",
-        "destination": "/bric-konvansiyonlari",
-        "type": 301
-      },
-      {
-        "source": "/bric-bbo-online-oyun-rehberi",
-        "destination": "/bridge-base-online-turkce",
-        "type": 301
-      },
-      {
-        "source": "/bric-el-degerlendirme-alistirmalari",
-        "destination": "/bric-el-degerlendirme",
-        "type": 301
-      },
-      {
-        "source": "/bric-oyun-kurallari-ve-deklarasyon",
-        "destination": "/bric-ihale-sistemi",
-        "type": 301
-      },
-      {
-        "source": "/bric-kart-oyunu-ve-love-saglama",
-        "destination": "/sanzatu-oyun-plani",
-        "type": 301
-      },
-      {
-        "source": "/bric-puan-hesaplama-ve-skor",
-        "destination": "/bric-puan-hesaplama",
-        "type": 301
-      },
-      {
-        "source": "/1nt-acisina-yanitlar",
-        "destination": "/stayman-konvansiyonu",
-        "type": 301
-      },
-      {
         "source": "/anasayfa",
         "destination": "/",
         "type": 301
