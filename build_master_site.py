@@ -427,7 +427,7 @@ def main():
     # Update firebase.json
     firebase_config = {
         "hosting": {
-            "site": "bricdersi-net",
+            "site": "bricdersi-net-site",
             "public": ".",
             "ignore": [
                 "firebase.json",
